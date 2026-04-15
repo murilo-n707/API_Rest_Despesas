@@ -9,6 +9,7 @@ Uma API REST desenvolvida em Spring Boot para controle de despesas pessoais, com
 *   **H2 Database** (Banco de dados em memória)
 *   **Lombok** (Produtividade no código)
 *   **Maven** (Gerenciador de dependências)
+*   **Swagger** (Gerador de requisições)
 
 ## 🛠️ Funcionalidades (CRUD + Estatísticas)
 - [x] **Cadastrar despesa**: Salva descrição, valor e categoria.
@@ -32,6 +33,7 @@ Uma API REST desenvolvida em Spring Boot para controle de despesas pessoais, com
 | DELETE | `/api/despesas/deletar/{id}` | Remove uma despesa por ID |
 
 ## 📦 Como rodar o projeto
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/murilo-n707/API_Rest_Despesas
+1. Baixe o .jar disponível nas releases do repositório
+2. Rode a partir do terminal usando java -jar ProjetoSB-v1.0-.jar
+3. Gere requisições a partir do swagger em [http://localhost:8080/swagger-ui/index.html]
+4. Veja o resultado das requisiçẽos nos endpoins disponíveis nesse arquivo listados acima usando a porta 8080 (exemplo: localhost:8080/api/despesas/listaDespesas)
